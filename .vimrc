@@ -12,10 +12,6 @@ set encoding=utf-8
 set showtabline=2
 set showcmd
 
-"""man page browsing"""
-:runtime! ftplugin/man.vim
-:Man c
-
 """"""""""""""FILE TEMPLATES""""""""""""""""""'"
 nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>
 nnoremap ,c :-1read $HOME/.vim/.skeleton.c<CR>$A
